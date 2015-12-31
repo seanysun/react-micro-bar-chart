@@ -2,13 +2,7 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import * as d3 from 'd3';
 
-// var React, ReactDOM, d3;
-// React = require('react');
-// ReactDOM = require('react-dom');
-// d3 = require('d3');
-
 export default class MicroBarChart extends React.Component {
-  // displayName: "exports",
   getDefaultProps() {
     return {
       width: 100,
